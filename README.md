@@ -16,5 +16,5 @@ Find and draw a good route across the state of Colorado.
 1. Draw the map by completing the function drawMap().
 
    **Checkpoint:** After this step, the graphics panel will look like this:
-   ![Graphics panel][graphics-panel.png]
+   ![Graphics panel][MountainPathProject/graphics-panel.png]
 
