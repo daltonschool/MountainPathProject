@@ -1,6 +1,6 @@
 # Mountain Path Project
 
-### Summary
+## Summary
 Find and draw a good path to cross the state of Colorado by foot.
 
 ## Getting Started
@@ -35,5 +35,6 @@ In this project you will determine a good route to take. The project contains a 
     **Checkpoint:** After this step, the graphics panel will look like this:
    ![Graphics panel](graphics-panel-03.png)
    
-1. The console will print out the best row to start the journey on. Which is it?
+## Conclusion   
+The console will print out the best row to start the journey on. Which row is it?
 
