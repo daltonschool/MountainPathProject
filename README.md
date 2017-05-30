@@ -1,4 +1,4 @@
-<div style="height:150px;overflow: hidden">
+<div style="height:170px;overflow: hidden">
  <img src="mountain-path.jpg" width="100%" style="position:relative;top:-200px;">
  </div>
 
@@ -42,5 +42,6 @@ The project contains a file with all the elevations of Colaroada (in feet, in 1x
 ## Conclusion   
 The console will print out the best row to start the journey on. Which row is it?
 
-<div style="height:200px;background-image: url('mountain-path.jpg')">
-</div>
+<div style="height:200px;overflow: hidden">
+ <img src="mountain-path.jpg" width="100%" style="position:relative;top:-200px;">
+ </div>
