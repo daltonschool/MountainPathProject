@@ -1,3 +1,6 @@
+<div style="height:200px;background-image: url('mountain-path.jpg')">
+</div>
+
 # Mountain Path Project
 
 ## Summary
@@ -38,3 +41,5 @@ The project contains a file with all the elevations of Colaroada (in feet, in 1x
 ## Conclusion   
 The console will print out the best row to start the journey on. Which row is it?
 
+<div style="height:200px;background-image: url('mountain-path.jpg')">
+</div>
