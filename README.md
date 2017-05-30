@@ -25,9 +25,8 @@ In this project you will determine a good route to take. The project contains a 
    **Checkpoint:** After this step, the graphics panel will look like this:
    ![Graphics panel](graphics-panel.png)
 
-1. Finally, we can start comparing paths. Complete the function drawGreedyPath().  
-  1. Start at the west side of the state (column 0).  
-  2. Then compute the elevation changes for 3 choices for the next step ahead: straight ahead, diagonally north (this won't apply when you are at row 0, but will for all the others), and diagonally south (this won't apply for the last row but it will for all the others).  
-  3. pick the best direction to take (the one with the least elevation change).  
-    1. Note: elevation change is the difference in elevation from the current spot to next spot without regard to if you are stepping up or down, i.e., you need absolute value.
+1. Finally, we can start comparing paths. Complete the function drawGreedyPath(). In this function, compute the elevation changes for 3 choices: straight ahead (the column directly in front, in the same row), diagonally north (the column directly in front, but in the row one up), and diagonally south (the column directly in front but one row down).  Pick the best direction to take, i.e. the one with the least elevation change. Keep doing this for all the columns.  
+
+   **Checkpoint:** After this step, the graphics panel will look like this:
+   ![Graphics panel](graphics-panel-02.png)
 
