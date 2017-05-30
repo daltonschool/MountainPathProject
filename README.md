@@ -9,9 +9,9 @@ Find and draw a good path to cross the state of Colorado by foot.
 3. DrawingPanel.java has been written for you. You do not need to change it.
 
 ## Overview
-I want to cross the state of Colorado by foot. How far west-to-east it is is fixed, but I have a choice over which hills, mountains, and valleys I encounter along the way. If I choose poorly I am making my trip so much harder! 
+I want to cross the state of Colorado by foot. The west-to-east distance is fixed, but I have a choice over which hills, mountains, and valleys I encounter along the way. If I choose poorly I am making my trip so much harder! In this project you will determine a good route to take. 
 
-In this project you will determine a good route to take. The project contains a file with all the elevations (in feet, in 1x1 squares) of Colorado. You will draw an elevation map (where white represents the highest elevation, black the lowest, and shades of gray in between). Then you try several paths, starting from the north-most row and working your way south, and compute the total elevation changes. Finally, tell me which one has the least elevation change, i.e. which is the flattest. That way I'll know where to start my journey.
+The project contains a file with all the elevations of Colaroada (in feet, in 1x1 squares). You will draw an elevation map (where white represents the highest elevation, black the lowest, and shades of gray in between). Then you try several paths, starting from the north-most row and working your way south, and compute the total elevation changes. For each path, you'll make decisions if I should step straight ahead, diagnonally north or diagonally south. Finally, you'll tell me which path has the least elevation change, i.e. which is the flattest. 
 
 ## Instructions
 1. Fill a 2D array of ints with the elevation data from the file by completing the function fillGrid().
