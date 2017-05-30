@@ -25,8 +25,15 @@ In this project you will determine a good route to take. The project contains a 
    **Checkpoint:** After this step, the graphics panel will look like this:
    ![Graphics panel](graphics-panel.png)
 
-1. Finally, we can start comparing paths. Complete the function drawGreedyPath(). In this function, compute the elevation changes for 3 choices: straight ahead (the column directly in front, in the same row), diagonally north (the column directly in front, but in the row one up), and diagonally south (the column directly in front but one row down).  Pick the best direction to take, i.e. the one with the least elevation change. Keep doing this for all the columns.  
+1. Complete the function drawGreedyPath(). In this function, compute the elevation changes for 3 choices: straight ahead (the column directly in front, in the same row), diagonally north (the column directly in front, but in the row one up), and diagonally south (the column directly in front but one row down).  Pick the best direction to take, i.e. the one with the least elevation change. Keep doing this for all the columns.  
 
    **Checkpoint:** After this step, the graphics panel will look like this:
    ![Graphics panel](graphics-panel-02.png)
+   
+ 1. Complete Step 5 in the main method, which asks you to call drawGreedyPath() for every row of the data and keep track of which is the best one.
+ 
+    **Checkpoint:** After this step, the graphics panel will look like this:
+   ![Graphics panel](graphics-panel-03.png)
+   
+1. The console will print out the best row to start the journey on. Which is it?
 
