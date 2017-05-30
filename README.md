@@ -1,5 +1,6 @@
-<div style="height:200px;background-image: url('mountain-path.jpg')">
-</div>
+<div style="height:150px;overflow: hidden">
+ <img src="mountain-path.jpg" width="100%" style="position:relative;top:-200px;">
+ </div>
 
 # Mountain Path Project
 
