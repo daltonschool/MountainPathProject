@@ -42,6 +42,6 @@ The project contains a file with all the elevations of Colaroada (in feet, in 1x
 ## Conclusion   
 The console will print out the best row to start the journey on. Which row is it?
 
-<div style="height:200px;overflow: hidden">
+<div style="height:400px;overflow: hidden">
  <img src="mountain-path.jpg" width="100%" style="position:relative;top:-200px;">
  </div>
