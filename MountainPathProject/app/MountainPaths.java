@@ -15,8 +15,8 @@ import java.util.Scanner;
 public class MountainPaths {
 
 	/**
-	 * Main method calls the helper functions and prints results. You do not
-	 * need to change the main method.
+	 * Main method calls the helper functions and prints results. In this
+	 * method, you only need to fill out Step 5.
 	 * 
 	 * @param args
 	 * @throws Exception
@@ -43,27 +43,16 @@ public class MountainPaths {
 		// Step 3 - Draw the map
 		drawMap(graphicsPanel, grid);
 
-		// Step 4 - Draw greedy path from first latitude (top row)
+		// Step 4 - Draw greedy path from north-most latitude (top row)
 		graphicsPanel.setColor(Color.BLUE);
 		int totalRows = grid.length;
 		int elevationOfBestPath = drawGreedyPath(graphicsPanel, grid, 0);
 		int bestRow = 0; // best row so far
 
 		// Step 5 - Draw greedy paths from every row and save the best one.
-		for (int i = 1; i < totalRows; i++) {
+		// TODO your code
 
-			int elev = drawGreedyPath(graphicsPanel, grid, i);
-
-			System.out
-					.println("The path that starts at row " + i + " has a total elevation change of " + elev + " ft.");
-
-			if (elev < elevationOfBestPath) {
-				elevationOfBestPath = elev;
-				bestRow = i; // best row so far
-			}
-		}
-
-		// Step 5 - Re-Draw path with lowest total elevation change in green.
+		// Step 6 - Re-Draw path with lowest total elevation change in green.
 		graphicsPanel.setColor(Color.GREEN);
 		int totalChange = drawGreedyPath(graphicsPanel, grid, bestRow);
 
