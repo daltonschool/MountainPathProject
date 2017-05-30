@@ -15,6 +15,6 @@ Find and draw a good route across the state of Colorado.
    Checkpoint: After this step, the Lowest Elevation and Highest Elevation will print to the console.
 1. Draw the map by completing the function drawMap().
 
-   Checkpoint: After this step, the graphics panel will fill out and look like this:
+   Checkpoint: After this step, the graphics panel will look like this:
    ![Graphics panel][graphics-panel.png]
 
