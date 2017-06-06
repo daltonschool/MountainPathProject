@@ -167,7 +167,8 @@ public class MountainPaths {
 	 */
 	public static int drawGreedyPath(Graphics g, int[][] grid, int rowStart) {
 
-		// Declarations. You will need more than these.
+		// Declarations. 
+		// (Hint: You will need more variables.)
 		int totalElevationChange = 0;
 		int currentElevation = grid[rowStart][0];
 
