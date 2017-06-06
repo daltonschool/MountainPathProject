@@ -8,14 +8,13 @@
 Find and draw a good path on which to cross the state of Colorado by foot.
 
 ## Getting Started
-1. Clone the starter project from this repository: https://github.com/daltonschool/MountainPathProject.git
-2. Look at MountainPaths.java. This is what you will edit.
-3. DrawingPanel.java has been written for you. You do not need to change it.
+1. Clone the starter project from this repository. (In Eclipse, Control-click anywhere in the Package Explorer > Import... > Git > Projects from git > Clone URI > paste this URI https://github.com/daltonschool/MountainPathProject.git > Next until Finish).
+2. Expand Mountain Path Project folder and open MountainPaths.java. This is what you will edit. (DrawingPanel.java has been written for you. You do not need to change it or even read it.)
 
-## Overview
-We want to cross the state of Colorado by foot. The west-to-east distance is fixed, but we have a choice over which hills, mountains, and valleys we encounter along the way. If we choose poorly the trip is so much harder! This project will determine a good route to take. 
+## Background
+We want to cross the state of Colorado by foot. The width of the state is fixed but we have a choice over which hills, mountains, and valleys we encounter along the way. If we choose poorly the trip is so much longer! This project will determine a good route to take. 
 
-The project contains a file with all the elevations of Colaroada (in feet, in 1x1 squares). You will draw an elevation map where white represents the highest elevation, black the lowest, and shades of gray in between. Then you try several paths across the state and compute the total elevation changes for each one. For each path, you'll make decisions if we should step straight ahead, diagnonally north or diagonally south. Finally, you'll declare which path has the least elevation change, and that's the one we'll take! 
+The project contains a file with all the elevations of Colorada (in feet, in 1x1 squares). You will use that file to draw an elevation map where white represents the highest elevation, black the lowest, and shades of gray in between. Then you try several paths across the state. For each path, you'll make decisions if we should step straight ahead, diagnonally north or diagonally south depending on which has the least elevation change. Finally, you'll declare which path has the least overall elevation change, and that's the one we'll take! 
 
 ## Instructions
 1. Fill a 2D array of ints with the elevation data from the file by completing the function fillGrid().
@@ -40,8 +39,8 @@ The project contains a file with all the elevations of Colaroada (in feet, in 1x
    ![Graphics panel](graphics-panel-03.png)
    
 ## Conclusion   
-The console will print out the best row to start the journey on. Which row is it?
+At this point, the console will print out the best row to start the journey on and what the total elevation change is. Which row is it and what's our elevation change?
 
-<div style="height:400px;overflow: hidden">
+<div style="height:400px;overflow: hidden;margin-top:20px">
  <img src="mountain-path.jpg" width="100%" style="position:relative;top:-200px;">
  </div>
