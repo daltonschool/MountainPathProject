@@ -6,8 +6,8 @@ import java.io.File;
 import java.util.Scanner;
 
 /**
- * Compute the best path travelling west-to-east across the state of Colorado.
- * The best path is the one with the least elevation change (the flattest).
+ * Compute the best path traveling west-to-east across the state of Colorado.
+ * The best path is the one with the least elevation change (i.e., the flattest).
  * 
  * @author Katie Jergens
  *
@@ -15,8 +15,9 @@ import java.util.Scanner;
 public class MountainPaths {
 
 	/**
-	 * Main method calls the helper functions and prints results. In this
-	 * method, you only need to fill out Step 5.
+	 * Main method calls the helper functions and prints results.
+	 *
+	 * Follow the comments to see which parts to add.
 	 * 
 	 * @param args
 	 * @throws Exception
@@ -26,14 +27,17 @@ public class MountainPaths {
 		// Declarations
 		final int width = 844;
 		final int height = 480;
+		int[][] grid = new int[height][width];
 		DrawingPanel panel = new DrawingPanel(width, height);
 		Graphics graphicsPanel = panel.getGraphics();
-		int[][] grid = new int[height][width];
 
 		// Step 1 - Fill grid with data from file.
+		// (It's your job to finish writing this function. The stub is below.)
 		fillGrid(grid, height, width);
 
 		// Step 2 - Find the min and max elevations in the grid.
+		// (It's your job to finish writing these functions. The stubs are
+		// below.)
 		int min = getMin(grid);
 		int max = getMax(grid);
 
@@ -41,18 +45,25 @@ public class MountainPaths {
 		System.out.println("Highest elevation: " + max);
 
 		// Step 3 - Draw the map
+		// (It's your job to finish writing this function. The stub is below.)
 		drawMap(graphicsPanel, grid);
 
 		// Step 4 - Draw greedy path from north-most latitude (top row)
 		graphicsPanel.setColor(Color.BLUE);
 		int totalRows = grid.length;
-		int elevationOfBestPath = drawGreedyPath(graphicsPanel, grid, 0);
 		int bestRow = 0; // best row so far
 
+		// (It's your job to finish writing this function. The stub is below.)
+		int elevationOfBestPath = drawGreedyPath(graphicsPanel, grid, bestRow);
+
 		// Step 5 - Draw greedy paths from every row and save the best one.
+		// (It's your job to write this code. You will need to call
+		// drawGreedyPath() for every row in grid and save the one with the
+		// lowest elevation change to bestRow.)
 		// TODO your code
 
 		// Step 6 - Re-Draw path with lowest total elevation change in green.
+		// (This is done for you.)
 		graphicsPanel.setColor(Color.GREEN);
 		int totalChange = drawGreedyPath(graphicsPanel, grid, bestRow);
 
